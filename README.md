@@ -1,6 +1,25 @@
 
 
 # GIT
+Comandos Git
+
+git checkout //para mudar de branch
+git checkout -b (nome_para_nova_branck) //cria uma nova brach
+git status // visualizar 
+git add . //adiciona tudo
+git commit -m "comentarios" // comentar
+git log  // visualizar 
+git push // salvar no repositorio
+git push origin(meu computador) main(branch)
+git merge nomedabrach // faz o commit de uma brach para outra
+git branch -D nomedabranch //apagar branch no computador
+git push origin --delete nomedabranch // apagar no repositorio do git
+git branch -a // visualiza as branch
+git fetch //atualiza todas as branchs //repositorio da maquina não encherga os repositirios que não foram criadas por mim
+git fetch -p // apaga as branch da sau máquina. elas não existem //codigos baixados
+git branch -D // resolve o problema acima
+no git em settings - branch protection rule //proteger a branch com revisão
+git pull atualiza o repositório para o equipamento local.
 
 ## Estados
 
